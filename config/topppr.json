@@ -1,0 +1,25 @@
+{
+    "data": {
+        "UID": "user",
+        "IID": "item"
+    },
+    "model": {
+        "path_log": "log/large/best",
+        "name": "pprgo",
+        "seed": 1784,
+        "ppr": "topppr",
+        "ppr_alpha": 0.2,
+        "ppr_tau": 1e-3,
+        "ppr_norm": false,
+        "ssl_temp": 0.2,
+        "num_layer": 1,
+        "lr": 1e-3,
+        "dropout": 0,
+        "epoch": 500,
+        "epoch_val": 10,
+        "multicore": 1,
+        "pretrain": 0,
+        "save_checkpoint": false,
+        "load_checkpoint": false
+    }
+}

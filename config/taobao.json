@@ -1,0 +1,16 @@
+{
+    "model": {
+        "ppr_k": 20,
+        "decay": 1e-3,
+        "ssl_reg": 0.1,
+        "ppr_file_k": 20,
+        "dim": 16,
+        "train_batch_size": 8192,
+        "test_batch_size": 5000,
+        "epoch_conv": 50,
+        "topks": [
+            50,
+            100
+        ]
+    }
+}
