@@ -4,4 +4,5 @@
 
 # run
 mkdir log
+
 python main.py -g 0 -d gowalla -s 352 -m ssl -c ./config/ssl.json
